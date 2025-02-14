@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #0e411f;
+    --text-color: #333;
+    --w-color: #fff;
+}
+
+.inner {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .inner {
+        max-width: 1170px;
+        margin: 0 16px;
+    }
+}
+
+
+.default {
+    padding: 80px 0;
+}
+
+.default.bg {
+    background-color: #f9f9f9;
+}
+
+.default .title {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.default .title h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.default .title .dese {
+    display: flex;
+    margin-top: 16px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn_default {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 16px 24px;
+
+    color: #363636;
+    overflow: hidden;
+    border: 1px solid #363636
+}
